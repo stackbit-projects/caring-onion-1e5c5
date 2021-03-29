@@ -1,0 +1,15 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "doctorbrand"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  mentores:
+    type: "page"
+    label: "Mentores"
+    urlPath: "/mentores/{slug}"
